@@ -1,2 +1,2 @@
 # Hacker-Rank-Solutions
-This repository will contain all the Problem Solving solutions of Hackerrank in C/C++.  
+This repository contains the solutions of Problem Solving Questions from Hackerrank in C/C++.  
