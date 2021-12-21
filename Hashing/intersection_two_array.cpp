@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// naive approach
 int naive_intersection(int arr[], int brr[], int n, int m)
 {
     int res = 0;
@@ -29,7 +29,7 @@ int naive_intersection(int arr[], int brr[], int n, int m)
     }
     return res;
 }
-
+//efficient approach
 int efficient_intersection(int arr[], int brr[], int n, int m)
 {
     unordered_set<int> s(arr, arr + n);
@@ -57,7 +57,7 @@ int main()
     int brr[m];
     for (int j = 0; j < m; j++)
         cin >> brr[j];
-    cout << "No. of Intersection pairs = " << naive_intersection(arr, brr, n, m)<<endl;
+    cout << "No. of Intersection pairs = " << naive_intersection(arr, brr, n, m) << endl;
     cout << "No. of Intersection pairs = " << efficient_intersection(arr, brr, n, m);
     return 0;
 }
